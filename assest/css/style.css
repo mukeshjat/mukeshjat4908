@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    position: relative;
+  }
+  .main{
+    color: #fff;
+    background-color: #000;
+    background-image: url(../images/profile-removebg-preview33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+  }
+
+  .header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 12%;
+}
+.logo {
+}
+
+.logoimg {
+  width: 100%;
+}
+.menu {
+  font-size: 47px;
+  color: #ffffff;
+  cursor: pointer;
+}
+  .menulist{
+    font-size: 16px;
+    opacity: 0.7;
+    position: absolute !important;
+    right: 100% !important;
+  }
+  #menulistopen{
+    position: absolute;
+    right: 100%;
+    z-index: 4;
+    width: 100%;
+    border-top: 2px solid white;
+    transition: .5s;
+  }
+  .contact{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 5% 0;
+  }
+  .contact a{
+    color: #000;
+    
+  }
+  .contactc a:hover{
+    background-color: #787878 !important;
+    color: #ffffff !important;
+  }
+  .open{
+    position: relative !important;
+    right: 0px !important;
+    transition: .5s;
+  }
+  .menulistitem{
+    text-align: center;
+  }
+  .menulistitem h2{
+      background-color: #d0c3c3;;
+      font-size: 22px;
+      padding: 3% 0;
+    }
+    .menulistitem h2 a{
+    color: #000;
+  }
+  .menulistitem h2 a:active{
+    color: #000;
+    background: reds;
+  }
+
+  .menulistitem h2:hover{
+    background-color: #ffffff;
+  color: #000 ;
+}
+  a{
+      text-decoration: none;
+  }
+  .container {
+      position: absolute;
+      bottom: 0%;
+      width: 100%;
+  }
+
+  .containercontent {
+    background-color: #555;
+    box-sizing: content-box;
+    padding: 2% 8%;
+    opacity: 0.8;
+  }
+  .containercontent::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .contentleft {
+    float: left;
+  }
+  .contentright {
+    float: right;
+    font-size: 37px;
+  }
+  .contentright ul {
+    list-style: none;
+  }
+  .contentright ul li a{
+      color: #000;
+  }
+  .contentleft h3{
+      font-size: 32px;
+  
+  }
+  .contentleft h1{
+      font-size: 42px;
+      margin: 3% 0;
+  }
+  .contentleft p{
+      font-size: 18px;
+  }
+  .desktop{display: none;}
+  #more{
+    display: none;
+  }
+  @media only screen and (min-width: 610px){
+        .phone{
+          display: none;
+        }
+        .desktop{
+          display: block;
+        }
+  }
+  .desktopcontent{
+    padding: 3% 5% 0 5%;
+    background-image: url(../images/homebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .desktopheader::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .desktopheader{
+    /* display: flex;
+    justify-content: space-between; */
+  }
+  .logo{
+    float: left;
+  }
+  .desktopmenu{
+    float: right;
+    width: 50%;
+  }
+.desktopmenu ul li{
+  display: inline-block;
+  font-size: calc(2vw + 3px);
+margin: 0 2%;
+}
+.desktopmenu ul li a{
+  color: #ffffff;
+}
+.desktoptcontainer::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* .disktopcontainerleft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+} */
+.containerleft{
+  float: left;
+  position: absolute;
+  top: 25%;
+  width: 50%;
+}
+.containerleft h3{
+  font-size: calc(2vw + 15px);
+}
+.containerleft p{
+  font-size: calc(2vw + 3px);
+}
+.containerright{
+  float: right;
+  width: 50%;
+}
+.containerright img{
+  width: 100%;
+}
+.containerleft h1{
+  margin: 2% 0 1% 0;
+  font-size: calc(2vw + 30px);
+}
+.socialcontact h2{
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: 7%;
+  font-size: calc(2vw + 10px);
+}
+.socialcontact h2 a{
+  color: #000;
+}
+.berries{
+  background: rgb(26, 24, 24);
+  color: #ffffff;
+  text-align: justify;
+  box-sizing: border-box;
+ padding: 1% 7% 2% 7%;
+}
+.berries h3{
+  font-size: 20px;
+}
+.berries p{
+  margin: 2% 0;
+  font-size: 17px;
+line-height: 21px;
+}
+.myBtn{
+  border: 2px solid #ffffff;
+  padding: 1%;
+  color: #fff;
+  background: inherit;
+  cursor: pointer;
+}
+.myBtn:hover{
+  border: 2px solid #000;
+  background-color: #ffffff;
+  color: #000;
+}
+@media only screen and (min-width: 850px){
+  .containerleft h3{
+    font-size: calc(2vw + 22px);
+  }
+  .containerleft p{
+    font-size: calc(2vw + 0px);
+  }
+  .containerleft h1{
+    margin: 6% 0 1% 0;
+    font-size: calc(2vw + 46px);
+  }
+  .socialcontact h2{
+    margin-top: 9%;
+    margin-right: 9%;
+    font-size: calc(2vw + 20px);
+  }
+
+}
+

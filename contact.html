@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./../assest/css/contact.css">
+    <script src="https://kit.fontawesome.com/faa0509cbe.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="60x60" href="../assest/images/Ace22.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assest/images/Ace22.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assest/images/Ace22.png">
+<link rel="manifest" href="../assest/images/Ace22.png">
+<link rel="mask-icon" href="../assest/images/Ace22.png" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="desktop">
+        <div class=" desktopheader">
+            <div class="logo"><a href="#"><img src="../assest/images/Ace.png" alt="" class="logoimg"></a></div>
+            <div class="desktopmenu">
+                <ul>
+                    <li><a href="./home.html" target="_blank">home</a></li>
+                    <li><a href="./about.html" target="_blank">About</a></li>
+                    <li><a href="./skill.html" target="_blank">Skill</a></li>
+                    <li><a href="./portfolio.html" target="_blank">Portfolio</a></li>
+                </ul>
+            </div> 
+         </div>
+
+         <div class="desktopportfolio">
+            <div class="desktopportfoliome">
+                <div class="desktopportfoliocenter">
+                <h1 class="hovermain">CONTACT</h1>
+             </div>
+             
+         </div>
+     </div>
+
+
+    </div>
+
+   <div class="phone">
+    <div class="header">
+        <div class="l logo"><a href="#"><img src="../assest/images/Ace.png" alt="" class="logoimg"></a></div>
+        <div class="l menu"><i onclick="myFunction()" class="fas fa-bars" id="menubar"></i></div>
+        
+     </div>
+    <div class="menulist menulist2"  id="menulistopen">
+        <div class="menulistitem">
+            <h2 class="contact"><a class="contact2" href="./index.html">Home</a></h2>
+            <h2><a href="./about.html">About me</a></h2>
+            <h2><a href="./skill.html">Skills</a></h2>
+            <h2><a href="./portfolio.html">Portfolio</a></h2>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skillme">
+            <div class="skillcenter">
+            <h1 class="hovermain">CONTACT</h1>
+         </div>
+         
+     </div>
+ </div>
+</div>
+   
+    
+    <div class="contact">
+        <div class="contactme">
+            <div class="contactcenter">
+            <h1>contact ME</h1>
+         </div>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae dicta vitae ex tempore deserunt. Reprehenderit error eius molestiae esse eaque, adipisci amet veritatis aut? Mollitia.
+            </p>
+           
+            <hr>
+        </div>
+    </div>
+
+    <div class="contactus">
+        <form action=""onsubmit="return validateform()">
+        <div class="contctcontent">
+            <div class="user">
+            <input type="text" class="input" id="username" placeholder="ENTER YOUR NAME*"> 
+            <p id="nameerror" class="error"></p>
+        </div>
+        <div class="user">
+            <input type="text" class="input" id="usermail" placeholder="ENTER YOUR EMAIL*">
+            <p id="mailerror" class="error"></p>
+        </div>
+            </div>
+    <div class="contctcontent">
+        <div class="user">
+            <input type="text" class="input" id="userphone" placeholder="PHONE NUMBER*">
+            <p id="phoneerror" class="error"></p>
+        </div>
+        <div class="user">
+            <input type="text" class="input" id="usermessage" placeholder="YOUR MESSAGE*" class="message">
+            <p id="messageerror" class="error"></p>
+        </div>
+        </div>
+        <input class="contactcontentbutton" type="submit">
+    </form>
+    </div>
+<div class="footer">
+    <div class="backtotop">
+        <h1><a href="#">BACK TO TOP</a></h1>
+    </div>
+    <div class="footericon">
+        <ul>
+            <li><a href="https://www.facebook.com/mukesh.dhayal.14203" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://instagram.com/its_jattmd?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/mukeshj11173710?t=u42G7nQBt5-jPY4ySVJbOQ&s=08" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mukesh-jat-921433130" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+    <div class="rights">
+        @2022 Mukesh Jat <span>ALL Rights Reserved.</span>
+    </div>
+</div>
+   
+<script>
+//     $(document).ready(function(){
+
+
+// $('ul.tabs li').click(function(){
+// var tab_id = $(this).attr('data-tab');
+
+// $('ul.tabs li').removeClass('current');
+// $('.tab-content').removeClass('current');
+
+// $(this).addClass('current');
+// $("#"+tab_id).addClass('current');
+
+// });
+
+// });
+function menubaropen(){
+    var element = document.getElementById("menulistopen");
+    var element2 = document.getElementById("menubar")
+     
+    element.classList.toggle("open");
+    element2.classList.remove("fas fa-bars")
+    element2.classList.add("fas fa-window-close")
+  }
+
+    function myFunction(){
+      var element = document.getElementById("menulistopen");
+      var element2 = document.getElementById("menubar")
+        
+      element.classList.toggle("open");
+    //   element2.classList.remove("fas fa-bars")
+    //   element2.classList.add("fas fa-window-close")
+    }
+    
+    // validaditeform
+    let username = document.getElementById("username");
+    let usermail = document.getElementById("usermail");
+    let userphone = document.getElementById("userphone");
+    let usermessage = document.getElementById("usermessage");
+    let flag = 1;
+    function validateform(x){
+    if(username.value == ""){
+        document.getElementById("nameerror").innerHTML = "user name is empty";
+        flag = 0;
+    } else if(username.value.length < 3){
+        document.getElementById("nameerror").innerHTML = "user name is must be in 3 charchator";
+        flag = 0;
+    } else{
+        document.getElementById("nameerror").innerHTML = "";
+        flag = 1;
+    }
+    if(usermail.value == ""){
+        document.getElementById("mailerror").innerHTML = "user mail is empty";
+        flag = 0;
+    } else if(usermail.value.length < 3){
+        document.getElementById("mailerror").innerHTML = "user name is must be in 3 charchator";
+        flag = 0;
+    } else{
+        document.getElementById("mailerror").innerHTML = "";
+        flag = 1;
+    }
+    if(userphone.value == ""){
+        document.getElementById("phoneerror").innerHTML = "user message is empty";
+        flag = 0;
+    } else if(userphone.value.length < 10){
+        document.getElementById("phoneerror").innerHTML = "message is must be in 10 charchator";
+        flag = 0;
+    } else{
+        document.getElementById("phoneerror").innerHTML = "";
+        flag = 1;
+    }
+    if(usermessage.value == ""){
+        document.getElementById("messageerror").innerHTML = "This field is required";
+        flag = 0;
+    } else if(usermessage.value.length < 3){
+        document.getElementById("messageerror").innerHTML = "user name is must be in 3 charchator";
+        flag = 0;
+    } else{
+        document.getElementById("messageerror").innerHTML = "";
+        flag = 1;
+    }
+    if(flag){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+</script>
+</body>
+</html>

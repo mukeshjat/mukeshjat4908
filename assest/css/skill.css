@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    
+  }
+
+.desktop{
+  display: none;
+}
+  .header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 12%;
+}
+.logo {
+}
+
+.logoimg {
+  width: 100%;
+}
+.menu {
+  font-size: 47px;
+  color: #ffffff;
+}
+  .menulist{
+    font-size: 16px;
+    opacity: 0.7;
+  }
+  #menulistopen{
+    position: absolute;
+    right: 100%;
+    top: 0%;
+    z-index: 4;
+    width: 100%;
+    border-top: 2px solid white;
+  }
+  .contact{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 5% 0;
+  }
+  .contact a{
+    color: #000;
+    
+  }
+  .contactc a:hover{
+    background-color: #787878 !important;
+    color: #ffffff !important;
+  }
+  .open{
+    position: relative !important;
+    right: 0px !important;
+    transition: .5s;
+  }
+  .menulistitem{
+    text-align: center;
+  }
+  .menulistitem h2{
+      background-color: #787878;
+      font-size: 22px;
+      padding: 3% 0;
+    }
+    .menulistitem h2 a{
+    color: #000;
+  }
+
+  .menulistitem h2:hover{
+    background-color: #ffffff;
+  color: #000 ;
+}
+  a{
+      text-decoration: none;
+  }
+  hr{
+    margin: 10% auto 5% auto;
+    width: 90%;
+    border: 3px solid black;
+  }
+  .about{
+    background-color: #e7e5e5;
+    padding: 3% 12%;
+    line-height: 26px;
+}
+.skill{
+  background-image: url(../images/skillbackground.png);
+  padding: 12% 12%;
+  line-height: 26px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: #787878; */
+}
+.skillme{
+  /* text-align: center; */
+}
+.skillcenter{
+  display: flex;
+  justify-content: center;
+
+}
+.skillme h1{
+  border: 3px solid #687569;
+  padding: 2%;
+  font-size: 22px;
+  margin: 3% 0;
+  letter-spacing: 6px;
+  color: #000;
+  background-color: #fff;
+}
+.aboutme{
+    /* text-align: center; */
+}
+.aboutcenter{
+    display: flex;
+    justify-content: center;
+
+}
+.hovermain:hover{
+  background: black;
+  color: white;
+}
+.aboutme h1{
+    border: 3px solid;
+    padding: 2%;
+    font-size: 22px;
+    margin: 3% 0;
+    letter-spacing: 6px;
+  }
+  
+  .using{
+    margin: 10% 0;
+    letter-spacing: 6px;
+    font-size: 54px;
+    text-align: center;
+  }
+  .skillfirst{
+      text-align: center;
+      width: 50%;
+      margin: auto;
+  }
+  .skillfirst img{
+      margin: 5% auto;
+      width: 100%;
+  }
+  .skillfirst h3{
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 2% 0 4% 0;
+    font-size: 28px;
+  }
+  .footer{
+    background: #000;
+    color: #ffffff;
+    padding: 4% 1%;
+    text-align: center;
+    font-weight: 600;
+} 
+.backtotop h1 a{
+  color: #ffffff;
+}
+.footericon{
+    margin: 5% 0;
+  }
+  .footericon ul li{
+      display: inline-block;
+      margin: 0 4%;
+      padding: 1%;
+
+  }
+  .footericon ul li a{
+      color: #ffffff;
+      font-size: 40px;
+}
+
+.footericon ul li a:hover{
+    color: rgb(75, 75, 212);
+}
+.footer span{
+    font-weight: 400;
+}
+@media only screen and (min-width:600px){
+  body {
+    width: 93%;
+    margin: auto;
+}
+.phone{
+  display: none;
+}
+.desktop{
+  display: block;
+}
+.desktopheader::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.desktopheader{
+  padding: 1% 0% 1% 5%;
+  box-sizing: border-box;
+  background-color: #000;
+
+}
+.logo{
+  float: left;
+}
+.desktopmenu{
+  float: right;
+  width: 50%;
+  line-height: 47px;
+}
+.desktopmenu ul li{
+display: inline-block;
+font-size: calc(2vw + 3px);
+margin: 0 2%;
+}
+.desktopmenu ul li a{
+color: #ffffff;
+}
+.desktopportfolio{
+background-image: url(../images/portfolio.png);
+padding: 6% 0%;
+line-height: 26px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.desktopportfoliome{
+/* text-align: center; */
+}
+.desktopportfoliocenter{
+display: flex;
+justify-content: center;
+
+}
+.desktopportfoliome h1{
+border: 3px solid #687569;
+padding: 2%;
+font-size: 22px;
+margin: 3% 0;
+letter-spacing: 6px;
+color: #000;
+background-color: #fff;
+}
+.second{
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+.skillfirst{
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+.width900{
+  display: none;
+}
+}
+@media only screen and (min-width:900px){
+  body {
+    width: 88%;
+    margin: auto;
+}
+.width900{
+  display: block;
+}
+.third{
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+.skillfirst{
+  width: 30%;
+}
+.width600{
+  display: none;
+}
+}
