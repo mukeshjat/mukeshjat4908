@@ -86,6 +86,10 @@ hr{
   padding: 3% 12%;
   line-height: 26px;
 }
+.hovermain:hover{
+  background: black;
+  color: white;
+}
 .skill{
 background-image: url(../images/aboutbg.jpg);
 padding: 12% 12%;
