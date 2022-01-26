@@ -6,7 +6,7 @@ function menubaropen(){
     element2.classList.remove("fas fa-bars")
     element2.classList.add("fas fa-window-close")
   }
-  
+
 
   function myFunction() {
 var dots = document.getElementById("dots");
@@ -15,7 +15,7 @@ var btnText = document.getElementsByClassName("myBtn");
 
 if (dots.style.display === "none") {
   dots.style.display = "inline";
-  btnText.innerHTML = "Read more";
+  btnText.innerHTML = "Read less";
   moreText.style.display = "none";
 } else {
   dots.style.display = "none";
