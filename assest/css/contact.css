@@ -3,7 +3,7 @@
     margin: 0;
   }
   body{
-    
+    font-family: 'Poppins', sans-serif;
   }
 
   .desktop{
@@ -114,9 +114,9 @@
     background-color: #fff;
   }
 .contact{
-  padding: 12% 12% 1% 12%;
+  padding: 7% 12% 1% 12%;
     line-height: 26px;
-
+    font-family: 'Source Sans Pro', sans-serif;
     background: #e7e5e5;
 }
 .contactme{
@@ -124,7 +124,8 @@
 }
 .contactcenter{
     display: flex;
-    justify-content: center;
+font-family: 'Source Sans Pro', sans-serif;
+justify-content: center;
 
 }
 .contactme h1{
@@ -132,15 +133,16 @@
     padding: 2%;
     font-size: 22px;
     margin: 3% 0;
-    letter-spacing: 6px;
+font-family: 'Source Sans Pro', sans-serif;
+letter-spacing: 6px;
   }
-  .contactcenter p{
-      width: 90%;
-      margin: auto;
-      text-align: center;
+  p{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
   }
   .contactus{
-    padding: 12% 12%;
+    padding: 7% 12%;
     text-align: center;
     background: #e7e5e5;
   }

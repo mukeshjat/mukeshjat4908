@@ -3,7 +3,7 @@
     margin: 0;
   }
   body{
-    
+    font-family: 'Poppins', sans-serif;
   }
 
 .desktop{
@@ -130,14 +130,15 @@
   }
   
   .using{
-    margin: 10% 0;
-    letter-spacing: 6px;
-    font-size: 54px;
+    margin: 4% 0;
+    letter-spacing: 1px;
+    font-size: 20px;
     text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
   }
   .skillfirst{
       text-align: center;
-      width: 50%;
+      width: 45%;
       margin: auto;
   }
   .skillfirst img{
@@ -184,6 +185,11 @@
   body {
     width: 93%;
     margin: auto;
+}
+.using{
+  margin: 7% 0;
+  font-size: 34px;
+  letter-spacing: 4px;
 }
 .phone{
   display: none;
@@ -249,7 +255,7 @@ background-color: #fff;
 }
 .skillfirst{
   text-align: center;
-  width: 40%;
+  width: 35%;
   margin: auto;
 }
 .width900{
@@ -270,9 +276,14 @@ background-color: #fff;
   margin: 5% 0;
 }
 .skillfirst{
-  width: 30%;
+  width: 25%;
 }
 .width600{
   display: none;
+}
+.using{
+    margin: 10% 0;
+    font-size: 54px;
+  letter-spacing: 6px;
 }
 }

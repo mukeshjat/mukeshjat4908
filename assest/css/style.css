@@ -4,6 +4,7 @@
   }
   body{
     position: relative;
+    font-family: 'Poppins', sans-serif;
   }
   .main{
     color: #fff;
@@ -167,7 +168,7 @@
   }
 .desktopmenu ul li{
   display: inline-block;
-  font-size: calc(2vw + 3px);
+  font-size: calc(2vw + 2px);
 margin: 0 2%;
 }
 .desktopmenu ul li a{
@@ -187,14 +188,14 @@ margin: 0 2%;
 .containerleft{
   float: left;
   position: absolute;
-  top: 25%;
+  top: 22%;
   width: 50%;
 }
 .containerleft h3{
   font-size: calc(2vw + 15px);
 }
 .containerleft p{
-  font-size: calc(2vw + 3px);
+  font-size: calc(2vw + 1px);
 }
 .containerright{
   float: right;
@@ -205,7 +206,7 @@ margin: 0 2%;
 }
 .containerleft h1{
   margin: 2% 0 1% 0;
-  font-size: calc(2vw + 30px);
+  font-size: calc(2vw + 27px);
 }
 .socialcontact h2{
   display: inline-block;
@@ -222,20 +223,23 @@ margin: 0 2%;
   text-align: justify;
   box-sizing: border-box;
  padding: 1% 7% 2% 7%;
+font-family: 'Source Sans Pro', sans-serif;
 }
 .berries h3{
   font-size: 20px;
 }
 .berries p{
   margin: 2% 0;
-  font-size: 17px;
-line-height: 21px;
+  font-size: 22px;
+line-height: 30px;
+font-family: 'Source Sans Pro', sans-serif;
 }
-.myBtn{
+#myBtn{
   border: 2px solid #ffffff;
   padding: 1%;
   color: #fff;
-  background: inherit;
+font-family: 'Source Sans Pro', sans-serif;
+background: inherit;
   cursor: pointer;
 }
 .myBtn:hover{
@@ -252,7 +256,7 @@ line-height: 21px;
   }
   .containerleft h1{
     margin: 6% 0 1% 0;
-    font-size: calc(2vw + 46px);
+    font-size: calc(2vw + 41px);
   }
   .socialcontact h2{
     margin-top: 9%;
