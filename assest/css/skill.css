@@ -151,6 +151,9 @@ font-family: 'Source Sans Pro', sans-serif;
     margin: 2% 0 4% 0;
     font-size: 28px;
   }
+  .width900{
+    display: none;
+  }
   .footer{
     background: #000;
     color: #ffffff;
@@ -280,6 +283,9 @@ background-color: #fff;
 }
 .width600{
   display: none;
+}
+.adobe{
+  width: 36%;
 }
 .using{
     margin: 10% 0;
